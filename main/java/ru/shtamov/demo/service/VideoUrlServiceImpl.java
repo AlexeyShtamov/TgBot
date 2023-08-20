@@ -12,13 +12,15 @@ public class VideoUrlServiceImpl implements VideoUrlService{
         this.testClient = testClient;
     }
 
+
     @Override
     public void setVideoUrl(String url) {
 
     }
 
     @Override
-    public String getVideoUrl() {
-        return null;
+    public String getVideoUrl(String url) {
+
+        return url + " (getVideoUrl получил строку)";
     }
 }

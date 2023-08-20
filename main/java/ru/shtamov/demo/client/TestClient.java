@@ -21,14 +21,5 @@ public class TestClient {
         this.restTemplate = restTemplate;
     }
 
-    public void restTemplate(){
-        Document document;
-        try {
-            document = Jsoup.connect("url").get();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        document
-    }
 
 }

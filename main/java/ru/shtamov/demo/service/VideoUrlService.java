@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public interface VideoUrlService {
     void setVideoUrl(String url);
 
-    String getVideoUrl();
+    String getVideoUrl(String url);
 
 }
